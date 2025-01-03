@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(9, 218, 246);
+    color: white;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.logo{
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul > li:hover{
+    color: white;
+
+}
+
+table, td, tr{
+    border: 2px solid rgb(9, 245, 37);
+    border-collapse: collapse;
+    padding: 5px 13px;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-left: 40vw;
+    color: rgb(0, 102, 255);
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+.para{
+    font-size:30px;
+    text-decoration: underline;;
+    font-style: italic;
+    color: rgb(255, 136, 0);
+}
+
+.head{
+    font-size: 46px;
+    text-decoration:underline;
+    text-decoration-color: rgb(238, 93, 9);
+    font-weight: 700;
+    color: rgb(0, 255, 149);
+}    
+
+h1, h2, h3 {
+    margin: 23px 0;
+    color: blue;
+}
+
+.btn{
+    padding: 8px 17px;
+    background: rgb(50, 184, 224);
+    color: black;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.btnsm{ 
+    padding: 8px 17px;
+    background: rgb(7, 7, 7);
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert{
+    display: none;
+}
